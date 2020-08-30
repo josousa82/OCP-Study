@@ -48,7 +48,8 @@ public class Meta {
             MyAnno annotation = method.getAnnotation(MyAnno.class);
             testMethod(annotation.str(), annotation.val());
         }catch (NoSuchMethodException exc){
-
+            exc.printStackTrace();
+            System.out.println("exc = " + exc);
         }
         return obj;
     }
