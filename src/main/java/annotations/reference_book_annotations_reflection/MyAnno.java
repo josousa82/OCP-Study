@@ -1,11 +1,11 @@
-package annotations.reference_book_annotations;
+package annotations.reference_book_annotations_reflection;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 /**
  * Created by sousaJ on 30/08/2020
- * in package - annotations.reference_book_annotations
+ * in package - annotations.reference_book_annotations_reflection
  **/
 @Retention(RetentionPolicy.RUNTIME)
 @interface MyAnno {
