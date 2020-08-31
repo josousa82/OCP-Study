@@ -1,4 +1,4 @@
-package annotations;
+package annotations.ocp_book_annotations.custom;
 
 import java.lang.annotation.Annotation;
 

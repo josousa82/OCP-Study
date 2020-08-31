@@ -1,4 +1,4 @@
-package annotations.reference_book_annotations_reflection;
+package annotations.reference_book_annotations_reflection.custom_annotations;
 
 import java.lang.reflect.Method;
 

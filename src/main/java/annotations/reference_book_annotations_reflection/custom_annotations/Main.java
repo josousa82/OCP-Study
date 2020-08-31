@@ -1,4 +1,4 @@
-package annotations.reference_book_annotations_reflection;
+package annotations.reference_book_annotations_reflection.custom_annotations;
 
 /**
  * Created by sousaJ on 30/08/2020
