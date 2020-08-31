@@ -39,3 +39,27 @@ Just Run on intellij the different packages
 
 * [Maven](https://maven.apache.org/) - Dependency Management
 
+## Topics 
+
+#### Annotations
+###### Notes:
+    
+    There are a number of restrictions that apply to annotation declarations. 
+    
+    First, no annotation can inherit another. 
+    
+    Second, all methods declared by an annotation must be without parameters. Furthermore, they must return one of the following:
+    
+    •  A primitive type, such as int or double
+    
+    •  An object of type String or Class
+    
+    •  An object of an enum type
+    
+    •  An object of another annotation type
+    
+    •  An array of a legal type.
+    
+    Annotations cannot be generic. In other words, they cannot take type parameters. 
+    
+    Annotation methods cannot specify a throws clause.
