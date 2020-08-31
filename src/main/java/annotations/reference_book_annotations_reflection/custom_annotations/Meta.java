@@ -7,6 +7,7 @@ import java.lang.reflect.Method;
  * in package - annotations.reference_book_annotations_reflection
  **/
 public class Meta {
+    transient private String str = "teste";
 
     @MyAnno(str = "Annotation Example", val = 100)
     public static void myMeth(){
@@ -37,13 +38,13 @@ public class Meta {
 
     public static void main(String[] args) {
         myMeth();
-        annotationValues(new Meta());
+        annotationValues(new Meta(), "testMethod");
 
     }
-    public static <T> T annotationValues(T obj) {
+    public static <T> T annotationValues(T obj, String str) {
         Class<?> cl = obj.getClass();
         try {
-            Method method = cl.getMethod("testMethod");
+            Method method = cl.getMethod(str);
             MyAnno annotation = method.getAnnotation(MyAnno.class);
             testMethod(annotation.str(), annotation.val());
         }catch (NoSuchMethodException exc){
