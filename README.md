@@ -20,13 +20,16 @@ Just run directly on your preferred IDE (IDE used Intellij)
 
 There may be some tests defined.
 
-### And coding style tests
+### Reference Books 
 
-Explain what these tests test and why
+Java: The Complete Reference, Eleventh Edition, 11th Edition
+by Herbert Schildt
+Published by McGraw-Hill, 2018
 
-```
-Give an example
-```
+OCP Oracle Certified Professional Java SE 11 Programmer II Study Guide: 
+Exam 1Z0-816 and Exam 1Z0-817
+Book by Jeanne Boyarsky and Scott Selikoff
+
 
 ## Deployment
 
