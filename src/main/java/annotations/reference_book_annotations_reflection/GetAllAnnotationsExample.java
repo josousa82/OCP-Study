@@ -10,7 +10,6 @@ import java.util.Arrays;
  * in package - annotations.reference_book_annotations_reflection
  **/
 
-
 @Retention(RetentionPolicy.RUNTIME)
 @interface What{
     String description();
