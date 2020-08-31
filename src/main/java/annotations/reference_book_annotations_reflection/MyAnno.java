@@ -8,7 +8,7 @@ import java.lang.annotation.RetentionPolicy;
  * in package - annotations.reference_book_annotations_reflection
  **/
 @Retention(RetentionPolicy.RUNTIME)
-@interface MyAnno {
+public @interface MyAnno {
     String str();
     int val();
 }
